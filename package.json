@@ -1,6 +1,6 @@
 {
   "name": "com.disruptorbeam.virtuallist",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Virtual List",
   "description": "An efficient virtual list view for uGUI UI",
   "author": {
