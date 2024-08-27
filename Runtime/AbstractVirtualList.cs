@@ -133,7 +133,7 @@ namespace VirtualList
         {
             _source = source;
             _prefabSource = source as IPrefabSource;
-            _source.SetListController(this);
+            _source?.SetListController(this);
 
             if (_prefabSource == null && TilePrefab == null)
                 Debug.LogError("VirtualList does not have a prefab set.", this);
